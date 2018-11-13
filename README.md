@@ -54,3 +54,14 @@ To Test I2C communication
 
 * sudo i2cdetect -y 1
 * sudo i2cdump -y 1 0x77      
+
+Now you need to clone 
+
+git clone https://github.com/adafruit/Adafruit_CircuitPython_BMP3XX.git
+
+* once it is copied to your Pi Board type 
+* cd Adafruit_CircuitPython_BMP3XX
+* then type sudo pyhton3 setup.py install
+* then wget https://raw.githubusercontent.com/adafruit/Adafruit_CircuitPython_BMP3XX/master/adafruit_bmp3xx.py
+* then type python3 adafruit_bmp3xx.py
+* then type python3 bmp388-6.py
