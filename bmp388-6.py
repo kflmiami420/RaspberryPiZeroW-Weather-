@@ -32,6 +32,6 @@ while True:
     print("--------------------------")
     print("Temperature:  {0:0.2f} Deg C ".format(bmp388.temperature))
     print("Pressure:     {:6.3f}  HpA   ".format(bmp388.pressure))
-    print("Altitude:     {0:0.4f} Press ".format(bmp388.altitude))
+    print("Altitude:     {0:0.4f} Meters ".format(bmp388.altitude))
     time.sleep(1)
 
